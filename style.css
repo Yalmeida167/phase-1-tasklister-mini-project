@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(13, 40, 192), rgb(46, 170, 184));
 }
 
 button {
@@ -34,4 +34,16 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+p.High.Priority {
+  color: red;
+}
+
+p.Medium.Priority {
+  color: yellow;
+}
+
+p.Low.Priority {
+  color: green
 }
